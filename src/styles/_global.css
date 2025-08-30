@@ -3,6 +3,8 @@
 @import './variables.css';
 @import './themes.css';
 @import './browser.css';
+@import './utilities.css';
+@import './fonts.css';
 @import './layers.css';
 
 @custom-variant dark (&:is(.dark *));
