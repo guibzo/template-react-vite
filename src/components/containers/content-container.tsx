@@ -1,6 +1,7 @@
-import { cn } from '@/lib/cn'
 import { cva, type VariantProps } from 'class-variance-authority'
 import type { ReactNode } from 'react'
+
+import { cn } from '@/lib/cn'
 
 const containerVariants = cva('container-padding mx-auto w-full flex-1', {
   variants: {
@@ -13,7 +14,7 @@ const containerVariants = cva('container-padding mx-auto w-full flex-1', {
     },
     variant: {
       default: '',
-      auth: 'centered flex flex-col gap-6',
+      auth: 'centered gap-6 flex flex-col',
     },
   },
 })

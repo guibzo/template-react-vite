@@ -1,10 +1,10 @@
 @import 'tailwindcss';
 
-@import './variables.css';
-@import './themes.css';
 @import './browser.css';
+@import './layers.css';
+@import './themes.css';
+@import './tokens.css';
 @import './utilities.css';
 @import './fonts.css';
-@import './layers.css';
 
 @custom-variant dark (&:is(.dark *));

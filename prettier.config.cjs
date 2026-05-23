@@ -8,5 +8,5 @@ module.exports = {
   jsxSingleQuote: true,
   printWidth: 120,
   endingPosition: 'absolute',
-  tailwindStylesheet: './src/styles/_global.css',
+  tailwindStylesheet: './src/styles/tokens.css',
 }
